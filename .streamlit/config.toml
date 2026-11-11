@@ -1,0 +1,6 @@
+# Neutral theme: no firm colours, logo or branding.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#fcfcfb"
+textColor = "#0b0b0b"

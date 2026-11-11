@@ -1,0 +1,46 @@
+# Everything firm-specific lives in this file. To reuse the planner for another pitch, edit this file and the
+# README's "Context for this pitch" section; nothing in app.py or src/ names a firm (tests/test_neutrality.py).
+
+[firm]
+name = "Gradient Labs"
+
+[banner]
+# {firm} is filled from [firm].name.
+text = "Unofficial prototype. Not affiliated with or endorsed by {firm}. Synthetic demo data unless you upload your own."
+
+[about]
+text = """
+{firm}'s guide to vulnerable customers advises: "Calibrate the threshold against your own traffic rather than \
+accepting a vendor default", and lists the per-guardrail numbers it logs: "run count, hand-off count, precision, \
+catch rate, and accuracy". This planner looks at the same threshold from the staffing side: what a target catch \
+rate needs in specialist capacity, and what a given capacity catches.
+
+In its September 2026 review of a sample of payments firms, the FCA reported that "In some cases" there "was \
+limited testing or assurance to assess how effectively policies were being implemented in practice". Run on a \
+firm's own labelled conversations, this planner is that kind of testing. On the synthetic demo data it is a \
+planning demo: every result follows from the stated assumptions.
+"""
+
+[[sources]]
+title = "FCA vulnerable customers: how AI agents detect and escalate"
+author = "Elizabeth Shew, Gradient Labs"
+date = "2 Nov 2026"
+url = "https://gradient-labs.ai/guides/fca-vulnerable-customers-how-ai-agents-detect-and-escalate"
+
+[[sources]]
+title = "Payments firms: delivering good outcomes for consumers in vulnerable circumstances"
+author = "FCA"
+date = "17 Sep 2026"
+url = "https://www.fca.org.uk/publications/good-and-poor-practice/payments-firms-delivering-good-outcomes-vulnerable-consumers"
+
+[[sources]]
+title = "Delivering good outcomes for customers in vulnerable circumstances"
+author = "FCA"
+date = "7 Mar 2025"
+url = "https://www.fca.org.uk/publications/good-and-poor-practice/delivering-vulnerable-customers"
+
+[[sources]]
+title = "FG21/1: Guidance for firms on the fair treatment of vulnerable customers"
+author = "FCA"
+date = "23 Feb 2021, updated 22 Jul 2026"
+url = "https://www.fca.org.uk/publications/finalised-guidance/guidance-firms-fair-treatment-vulnerable-customers"
